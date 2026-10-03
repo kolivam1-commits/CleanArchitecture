@@ -53,5 +53,10 @@
     <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.17.0" />
     <PackageVersion Include="Aspire.Hosting.Testing" Version="9.5.1" />
     <PackageVersion Include="Vogen" Version="8.0.7" />
-  </ItemGroup>
+    <PackageVersion Include="SSH.NET" Version="2026.0.0" />
+    </ItemGroup>
+    <PropertyGroup>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    </PropertyGroup>
+    </ItemGroup>
 </Project>
