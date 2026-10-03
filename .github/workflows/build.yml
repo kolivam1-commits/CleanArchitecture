@@ -43,5 +43,5 @@ jobs:
         shell: powershell
         run: |
           ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"kolivam1-commits_CleanArchitecture" /o:"kolivam1-commits" /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
-          dotnet build CleanArchitecture.nuspec
+          dotnet build Clean.Architecture.Core.sln
           ${{ runner.temp }}\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
